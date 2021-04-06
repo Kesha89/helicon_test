@@ -1,0 +1,136 @@
+body {
+    background: rgb(130, 114, 148);
+    background-image:url(img/main-bg.jpg);
+}
+ul,li {
+    list-style: none;
+}
+
+
+.navbar__title a{
+    color:rgb(186, 195, 201);
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-align: center;
+   text-transform: uppercase;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.nav-flex-icons {
+    display: inline-block;
+}
+.test {
+    position: absolute !important;
+}
+/* .catalog-section {
+    background-image:url(img/main-bg.jpg);
+} */
+
+.catalog-wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.card {
+    margin-left:30px;
+    margin-bottom: 30px;
+}
+.card-body {
+    background: rgb(189, 187, 186);
+}
+.card-title {
+    text-align: center;
+}
+
+.card .btn-primary {
+    margin-left:30px;
+}
+
+.col-2 .navbar-title {
+    align-items: center;
+}
+
+
+
+.dropdown-toggle {
+    background: none;
+    color:rgb(36, 35, 35);
+    font-weight: bold;
+    letter-spacing: 2px;
+   text-align: center;
+   border:none;
+   text-transform: uppercase;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clearfix {
+    color:white;
+}
+
+
+.dropdown-menu{
+    background: rgb(23, 24, 24);
+    border-radius: 12px;
+    text-align: center;
+}
+.dropdown-menu__item  {
+    text-align: left;
+    color:rgb(2, 0, 0);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    border:none;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.btn-outline-success:hover {
+    background: rgb(31, 105, 243);
+}
+
+.offcanvas {
+    position: absolute;
+    width: 15%;
+    background: rgb(0, 0, 0);
+    color:white;
+    text-align: center;
+    border-radius: 12px;
+    border:1px solid white;
+    right: 30px;
+    top:60px;
+}
+
+.btn-close {
+    position: relative;
+    border:none;
+    background:none;
+    left: 100px;
+    top:-35px;
+    font-size:20px;
+    cursor: pointer;
+}
+
+.cart__products-list {
+    margin-right: 20px;
+}
+
+.cart__products-list li {
+    border:1px solid whitesmoke;
+    border-radius: 12px;
+}
+
+.total-price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
